@@ -8,7 +8,7 @@ Project Overview
 
 This project demonstrates a brute force attack on a WordPress login page hosted on an Apache web server. The purpose is to understand web application vulnerabilities and the importance of strong password policies in cybersecurity.
 
-** DISCLAIMER**: This project is for educational purposes only. Unauthorized access to computer systems is illegal. Always obtain proper authorization before conducting security testing.
+**DISCLAIMER!** : This project is for educational purposes only. Unauthorized access to computer systems is illegal. Always obtain proper authorization before conducting security testing.
 
 ##  Objectives
 
@@ -75,11 +75,19 @@ hydra -L users.txt -P passwords.txt 192.168.1.100 http-post-form "/wp-login.php:
 Below are screenshots documenting the entire attack process:
 
 ### Attack Setup
-Hydra Configuration <img width="1604" height="918" alt="image" src="https://github.com/user-attachments/assets/d53b4145-08b7-48e4-8335-b26ae20fa0b0" />
+Hydra Configuration 
+
+<img width="1604" height="918" alt="image" src="https://github.com/user-attachments/assets/d53b4145-08b7-48e4-8335-b26ae20fa0b0" />
 
 
 ### Attack Execution
-Attack in Progress <img width="1639" height="938" alt="image" src="https://github.com/user-attachments/assets/73446b76-5653-4007-98f3-c1e844b3036c" />
+Attack in Progress: 
+
+The command used a custom created password list
+
+<img width="1604" height="916" alt="image" src="https://github.com/user-attachments/assets/776c4146-5f40-48df-bc18-1fa49b0217e8" />
+
+<img width="1639" height="938" alt="image" src="https://github.com/user-attachments/assets/73446b76-5653-4007-98f3-c1e844b3036c" />
 
 
 ### Successful Compromise
@@ -116,6 +124,14 @@ Successful Results from Hydra <img width="1604" height="918" alt="image" src="ht
    - Enable comprehensive logging
    - Set up alerts for suspicious activities
    - Regular log review
+  
+**Below is an example of the logs you can monitor and filter:**
+   
+   <img width="1280" height="800" alt="image" src="https://github.com/user-attachments/assets/a13a6973-5e9a-4cf3-a36c-d1af3e39c41d" />
+   
+   <img width="1280" height="800" alt="image" src="https://github.com/user-attachments/assets/f93c2864-d22a-48cb-8365-c49516930e32" />
+
+
 
 ### WordPress-Specific Security
 ```bash
@@ -140,9 +156,9 @@ Successful Results from Hydra <img width="1604" height="918" alt="image" src="ht
 | Attack Tool | Hydra |
 | Target | WordPress/Apache |
 | Attack Type | HTTP POST Form Brute Force |
-| Success Rate | [Your findings] |
-| Time to Compromise | [Your findings] |
-| Passwords Tested | [Your findings] |
+| Success Rate | [over 90% success rate |
+| Time to Compromise | Time taken to compromise was less that 3 minutes |
+| Passwords Tested |  <img width="308" height="259" alt="image" src="https://github.com/user-attachments/assets/99a19b73-6165-41d6-8bba-d2ac705b64c0" /> |
 
 ##  Lessons Learned
 
@@ -182,5 +198,6 @@ This project is for educational purposes only. Use responsibly and ethically.
 ---
 
 **Note**: All testing was performed in an isolated lab environment. No real systems were compromised.
+
 
 
