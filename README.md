@@ -48,7 +48,7 @@ sudo apt-get install apache2
 # Follow WordPress installation guide
 ```
 
-## 🔍 Attack Methodology
+##  Attack Methodology
 
 ### 1. Reconnaissance
 - Identified the WordPress login page
@@ -180,3 +180,4 @@ This project is for educational purposes only. Use responsibly and ethically.
 ---
 
 **Note**: All testing was performed in an isolated lab environment. No real systems were compromised.
+
