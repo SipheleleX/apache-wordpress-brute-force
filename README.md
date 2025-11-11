@@ -75,14 +75,16 @@ hydra -L users.txt -P passwords.txt 192.168.1.100 http-post-form "/wp-login.php:
 Below are screenshots documenting the entire attack process:
 
 ### Attack Setup
-Hydra Configuration<img width="1604" height="918" alt="image" src="https://github.com/user-attachments/assets/14e27cbe-740b-484f-8766-292069738159" />
+Hydra Configuration <img width="1604" height="918" alt="image" src="https://github.com/user-attachments/assets/d53b4145-08b7-48e4-8335-b26ae20fa0b0" />
+
 
 ### Attack Execution
 Attack in Progress <img width="1639" height="938" alt="image" src="https://github.com/user-attachments/assets/73446b76-5653-4007-98f3-c1e844b3036c" />
 
 
 ### Successful Compromise
-![Successful Login](screenshots/03-successful-login.png)
+Successful Results from Hydra <img width="1604" height="918" alt="image" src="https://github.com/user-attachments/assets/e3710b8a-c67e-423e-a998-7f013e5c5c44" />
+
 
 *Additional screenshots available in the `/screenshots` directory*
 
@@ -180,4 +182,5 @@ This project is for educational purposes only. Use responsibly and ethically.
 ---
 
 **Note**: All testing was performed in an isolated lab environment. No real systems were compromised.
+
 
