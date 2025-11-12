@@ -156,7 +156,7 @@ Successful Results from Hydra <img width="1604" height="918" alt="image" src="ht
 | Attack Tool | Hydra |
 | Target | WordPress/Apache |
 | Attack Type | HTTP POST Form Brute Force |
-| Success Rate | [over 90% success rate |
+| Success Rate | over 90% success rate |
 | Time to Compromise | Time taken to compromise was less that 3 minutes |
 | Passwords Tested |  <img width="308" height="259" alt="image" src="https://github.com/user-attachments/assets/99a19b73-6165-41d6-8bba-d2ac705b64c0" /> |
 
@@ -198,6 +198,7 @@ This project is for educational purposes only. Use responsibly and ethically.
 ---
 
 **Note**: All testing was performed in an isolated lab environment. No real systems were compromised.
+
 
 
 
